@@ -1,4 +1,4 @@
-//  Operators 
+//  Airthmetic Operators 
 let a = 10;
 let b = 5;
 console.log(a + b); // Addition: 15
@@ -38,17 +38,17 @@ if(!age>=18){
 for(i=0;i<=10;i++){
     console.log(i)
 }
-// printing numbers from 0-10
+// printing numbers from 10-0
 for(i=10;i>=0;i--){
     console.log(i)
 }
 // printing even numbers
 for(i=0;i<=10;i++){
-    console.log((i%2)==0)
+    console.log((i%2)==0))
 }
 // printing odd numbers
 for(i=0;i<=10;i++){
-    console.log((i%2)==1)
+    console.log((i%2)==1))
 }
 // printing 3 table
 for(i=0;i<=10;i++){
