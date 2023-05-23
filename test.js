@@ -1,4 +1,4 @@
-//  Airthmetic Operators 
+//  Arithmetic Operators 
 let a = 10;
 let b = 5;
 console.log(a + b); // Addition: 15
