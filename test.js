@@ -104,6 +104,50 @@ for (let i = 0; i < fruits.length; i++) {
   console.log(fruits[i]);
 }
 
+My Task on 5/25/2023
+
+const Name= function(V){
+    console.log(V)
+}
+
+let nam=Name("MADHU")
+
+// Number is even or not function
+function isEven(x){
+    if(x%2===0){
+    return true;
+    }
+    return false;
+}
+let Even=isEven(5)
+console.log(Even)
+
+// multiply function
+function multiply(arr){
+    let result=[];
+    for(let i=0;i<arr.length;i++){
+        let x=(arr[i]*2)
+        result.push(x)
+    }
+    return result;
+}
+let mulOut=multiply([2,3,4]);
+console.log(mulOut)
+
+// count function
+function count(arr){
+   let count=0;
+   for(let i=0;i<arr.length;i++){
+         if(arr[i]%2===0){
+         count++;
+    }
+    }
+    return count;
+    }
+
+const output=count([2,3,4]);
+console.log(output)
+
 
 
 
