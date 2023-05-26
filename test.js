@@ -148,6 +148,99 @@ function count(arr){
 const output=count([2,3,4]);
 console.log(output)
 
+// Date 5/26/2023
+function divby5(arr){
+    let arr1=[];
+    for(let i=0;i<=arr.length;i++){
+        if(arr[i]%5===0){
+            arr1.push(arr[i]);
+        }
+    }
+    return arr1;
+}
+
+let divi=divby5([2,5,15]);
+console.log(divi)
+
+function negativeNum(arr){
+    let arr2=[];
+    for(let i=0;i<=arr.length;i++){
+        if(arr[i]<0){
+            arr2.push(arr[i])
+        }
+    }
+    return arr2; 
+}
+ let  divis= negativeNum([1,2,-5,-9]);
+ console.log(divis);
+
+function replace(arr){
+  for(let i=0;i<arr.length;i++){
+    if(arr[i]<0){
+        arr[i]=0;
+    }
+   }
+   return arr;
+}
+
+let Rearr=replace([0,-1,-2,-5,6]);
+console.log(Rearr);
+
+function positiveNum(arr){
+       let arr2=[];
+        for(let i=0;i<=arr.length;i++){
+            if(arr[i]>0){
+                arr2.push(arr[i])
+            }
+        }
+        return arr2; 
+}
+ let Positive=positiveNum([-1,-2,-3,4,5,6]);
+
+ function Swap(arr){
+    let n1=0;
+    let n2=1;
+    for(let i=0;i<arr.length-1;i++){
+        n1=arr[i];
+        n2=arr[i+1];
+        arr[i]=n2;
+        arr[i+1]=n1;
+    }
+    return arr;
+ }
+const sres=Swap([2,3,4,5]);
+console.log(sres);
+      
+function Swap2(arr){
+    let n1=0;
+    let n2=1;
+   for(let i=0;i<(arr.length);i+=2){
+        n1=arr[i];
+        n2=arr[i+1];
+        arr[i]=n2;
+        arr[i+1]=n1;
+
+    }
+    return arr;
+ }
+const sresu=Swap2([2,3,4,5]);
+console.log(sresu);
+
+function shuffle(arr){
+    let currentIndex=0;
+    while(currentIndex<9){
+       let randomIndex=Math.floor(Math.random()*arr.length) ;
+       currentIndex++;
+       let tempStorage=arr[currentIndex];
+       arr[currentIndex]=arr[randomIndex];
+       arr[randomIndex]=tempStorage;
+    }
+    return arr;
+}
+let shuf=shuffle(["a","b","c","d","e","f","g","h","i","j"]);
+console.log(shuf);
+
+
 
 
 
